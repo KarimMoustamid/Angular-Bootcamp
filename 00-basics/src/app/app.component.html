@@ -1,3 +1,5 @@
 <h2>Hello {{ name.toUpperCase() }}</h2>
 
+<input (keyup)="changeImage($event)" [value]="imageURL" />
+
 <img [src]="imageURL" />
