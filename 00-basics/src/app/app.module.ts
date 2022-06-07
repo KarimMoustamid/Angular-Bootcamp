@@ -5,11 +5,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 // . Importing App.Component.ts Class :
 import { AppComponent } from './app.component';
+import { PostComponent } from './post/post.component';
 
 @NgModule({
   //. Registering the BrowserModule :
   imports: [BrowserModule],
-  declarations: [AppComponent],
+  declarations: [AppComponent, PostComponent],
   //. Defining the Root Component
   bootstrap: [AppComponent],
 })
