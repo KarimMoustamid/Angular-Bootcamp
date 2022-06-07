@@ -2,13 +2,7 @@ h2 {
   color: #ffb703;
 }
 
-img {
-  width: 400px;
-  height: 300px;
-  object-fit: contain;
-}
-
 input {
   display: block;
-  margin: 10 0;
+  margin-bottom: 20px;
 }
