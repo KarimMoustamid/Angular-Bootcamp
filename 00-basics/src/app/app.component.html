@@ -2,4 +2,4 @@
 
 <input (keyup)="changeImage($event)" [value]="imageURL" />
 
-<app-post [postImage]="imageURL"></app-post>
+<app-post [img]="imageURL" (imgSelected)="logImg($event)"></app-post>
