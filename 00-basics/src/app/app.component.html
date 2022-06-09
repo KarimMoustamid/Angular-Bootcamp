@@ -2,4 +2,6 @@
 
 <input (keyup)="changeImage($event)" [value]="imageURL" />
 
-<app-post [img]="imageURL" (imgSelected)="logImg($event)"></app-post>
+<app-post [img]="imageURL" (imgSelected)="logImg($event)">
+  <p>Content Projection</p>
+</app-post>
